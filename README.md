@@ -1,16 +1,16 @@
 # John Owens — Student Portfolio
 
-A small HTML-only portfolio scaffold for the **Site Plan & HTML Skeleton** milestone. The writing is intentionally conversational, and the project descriptions and email are placeholders to personalize before sharing.
+A small student portfolio built in milestones. The copy is intentionally conversational, and project details and the sample email address are placeholders to personalize before sharing.
 
-## Pages
+## Pages and styling
 
-- `index.html` — Home
+- `index.html` — Home page, linked to the separate `styles.css` stylesheet
 - `projects.html` — Projects / Work
 - `about.html` — About / Contact
 
-Each page uses the same navigation links, semantic HTML, and a clear heading structure. There is no CSS or JavaScript in this milestone folder.
+All three pages use the same relative navigation links and semantic HTML. `styles.css` currently styles the Home page for the CSS milestone; the Projects and About pages remain unstyled.
 
-## Site plan
+## Site plan and design notes
 
 - `site-plan.png` — wireframe for all three pages
 - `site-plan.mmd` — editable Mermaid source for the wireframe

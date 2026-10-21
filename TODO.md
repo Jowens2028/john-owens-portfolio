@@ -5,3 +5,4 @@
 - [x] Create a rough wireframe image showing the intended layout of each of the three pages.
 - [x] Document the intended color palette and font choices for future styling while leaving the HTML pages unstyled.
 - [x] Organize the HTML, wireframe image, and documentation in a GitHub-upload-ready project folder.
+- [x] For Homework 2, add a separate linked CSS file to the Home page, use element, class, and ID selectors, demonstrate deliberate margin, padding, and border on at least three elements, and apply a color scheme to text, backgrounds, and borders so the page looks intentionally styled.

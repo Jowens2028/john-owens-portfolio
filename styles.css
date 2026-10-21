@@ -1,0 +1,149 @@
+/* Homework 2: styling for John Owens' Home page */
+
+/* Element selector: sets the page-wide color, type, and box sizing. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2.5rem 1.25rem;
+  background-color: #f5f2e9;
+  color: #203449;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+/* Class selector: the header has its own padded, bordered color block. */
+.site-header {
+  max-width: 58rem;
+  margin: 0 auto 2rem;
+  padding: 1.25rem 1.75rem;
+  border: 2px solid #377c78;
+  border-radius: 1rem;
+  background-color: #e0efeb;
+  box-shadow: 0 0.5rem 1.25rem rgb(32 52 73 / 8%);
+}
+
+.site-name {
+  margin: 0 0 0.75rem;
+  color: #203449;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.site-name strong {
+  color: #176b67;
+  font-size: 1.45rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #8db9b2;
+  border-radius: 999px;
+  background-color: #fffdf8;
+  color: #174f59;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  background-color: #176b67;
+  color: #ffffff;
+  outline: 3px solid #e8a17e;
+  outline-offset: 2px;
+}
+
+main {
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+/* ID selector: a distinctive accent makes the main heading easy to find. */
+#welcome-heading {
+  margin: 0.2rem 0 0.8rem;
+  padding-left: 1rem;
+  border-left: 6px solid #d77f5c;
+  color: #203449;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.15;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: #176b67;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* These cards demonstrate margin, padding, and borders on page sections. */
+.intro-card,
+.content-card {
+  margin: 0 0 1.25rem;
+  padding: 1.6rem 1.8rem;
+  border: 1px solid #b8d0c8;
+  border-radius: 1rem;
+  background-color: #fffdf8;
+  box-shadow: 0 0.5rem 1.25rem rgb(32 52 73 / 6%);
+}
+
+.intro-card {
+  border-top: 5px solid #377c78;
+}
+
+.content-card h2 {
+  margin-top: 0;
+  color: #176b67;
+  font-size: 1.5rem;
+}
+
+.next-card {
+  border-color: #d9aa92;
+  background-color: #fff8f2;
+}
+
+.text-link {
+  color: #174f59;
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+  color: #a84f36;
+}
+
+.site-footer {
+  max-width: 58rem;
+  margin: 2rem auto 0;
+  padding: 1rem 0 0;
+  border-top: 2px solid #8db9b2;
+  color: #465b6b;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 38rem) {
+  body {
+    padding: 1rem 0.8rem;
+  }
+
+  .site-header,
+  .intro-card,
+  .content-card {
+    padding: 1.1rem;
+  }
+}
