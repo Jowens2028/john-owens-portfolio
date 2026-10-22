@@ -3,38 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Owens | Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>My First Web Page | John Owens</title>
 </head>
 <body>
-  <header class="site-header">
-    <p class="site-name"><strong>John Owens</strong><br>Student Portfolio</p>
-    <nav aria-label="Main navigation">
+  <header>
+    <p>John Owens · My first web page</p>
+    <nav aria-label="Page sections">
       <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="projects.html">Projects / Work</a></li>
-        <li><a href="about.html">About / Contact</a></li>
+        <li><a href="#why-it">Why IT</a></li>
+        <li><a href="#first-steps">My first steps</a></li>
+        <li><a href="#keep-learning">What’s next</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <section class="intro-card" aria-labelledby="welcome-heading">
-      <p class="eyebrow">A student portfolio, still taking shape</p>
-      <h1 id="welcome-heading">A little about what I’m learning</h1>
-      <p>I’m building this portfolio to keep my work in one place and share what I’m learning along the way. It’s a work in progress, just like the projects inside it.</p>
-    </section>
-    <section class="content-card" aria-labelledby="featured-heading">
-      <h2 id="featured-heading">A few things I’m working on</h2>
-      <p>I’ll use this space to highlight projects I’m proud of, what I learned from them, and what I’d like to try next.</p>
-      <p><a class="text-link" href="projects.html">Take a look at my projects</a></p>
-    </section>
-    <section class="content-card next-card" aria-labelledby="next-heading">
-      <h2 id="next-heading">What’s next</h2>
-      <p>I’ll keep adding to this site as I learn new skills and finish new work. If you’d like to say hello, you can find my contact details on the <a class="text-link" href="about.html">About / Contact page</a>.</p>
-    </section>
+    <article>
+      <header>
+        <h1>Starting my journey in IT</h1>
+        <p>I’m new to this, so I’m learning the basics one step at a time. I like that I can try a little code, open it in a browser, and see what I made.</p>
+      </header>
+
+      <section id="why-it" aria-labelledby="why-it-heading">
+        <h2 id="why-it-heading">Why I’m interested in IT</h2>
+        <p>Technology is part of everyday life, and I want to understand more about how it works. Web pages are a good place for me to begin because I can practice organizing information and see how the pieces fit together.</p>
+        <figure>
+          <img src="learning-it.jpg" alt="Illustration of a student sitting at a desk with a laptop, practicing coding and computer skills.">
+          <figcaption>A reminder that learning new computer skills starts with practice.</figcaption>
+        </figure>
+      </section>
+
+      <section id="first-steps" aria-labelledby="first-steps-heading">
+        <h2 id="first-steps-heading">My first steps</h2>
+        <p>Here are a few things I’m working on as I get started:</p>
+        <ol>
+          <li>Learn how HTML gives a page its structure.</li>
+          <li>Use headings, paragraphs, and lists to organize information.</li>
+          <li>Practice making links and describing images with alt text.</li>
+          <li>Learn CSS after I’m more comfortable with the HTML basics.</li>
+        </ol>
+      </section>
+
+      <section id="keep-learning" aria-labelledby="keep-learning-heading">
+        <h2 id="keep-learning-heading">What’s next</h2>
+        <h3>Keep practicing, one page at a time</h3>
+        <p>I don’t need to know everything right away. I can keep trying small projects, ask questions when I get stuck, and build my skills as I go.</p>
+      </section>
+    </article>
   </main>
-  <footer class="site-footer">
-    <p>John Owens · Student portfolio in progress</p>
+
+  <footer>
+    <p>John Owens · Learning IT one step at a time</p>
   </footer>
 </body>
 </html>
