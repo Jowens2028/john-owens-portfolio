@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Web Page | John Owens</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <p>John Owens · My first web page</p>
+  <header class="site-header">
+    <p class="brand">John Owens <span>· My first web page</span></p>
     <nav aria-label="Page sections">
       <ul>
         <li><a href="#why-it">Why IT</a></li>
@@ -16,43 +17,39 @@
       </ul>
     </nav>
   </header>
-
-  <main>
-    <article>
-      <header>
-        <h1>Starting my journey in IT</h1>
+  <main class="page-shell">
+    <article class="lesson-card">
+      <header class="intro">
+        <p class="eyebrow">A beginner’s learning journal</p>
+        <h1 id="page-title">Starting my journey in IT</h1>
         <p>I’m new to this, so I’m learning the basics one step at a time. I like that I can try a little code, open it in a browser, and see what I made.</p>
       </header>
-
-      <section id="why-it" aria-labelledby="why-it-heading">
+      <section class="content-section" id="why-it" aria-labelledby="why-it-heading">
         <h2 id="why-it-heading">Why I’m interested in IT</h2>
         <p>Technology is part of everyday life, and I want to understand more about how it works. Web pages are a good place for me to begin because I can practice organizing information and see how the pieces fit together.</p>
-        <figure>
-          <img src="learning-it.jpg" alt="A student seated at a desk using a computer while practicing coding.">
+        <figure class="image-frame">
+          <img class="learning-image" src="learning-it.jpg" alt="A student seated at a desk using a computer while practicing coding.">
           <figcaption>A reminder that learning new computer skills starts with practice.</figcaption>
         </figure>
       </section>
-
-      <section id="first-steps" aria-labelledby="first-steps-heading">
+      <section class="content-section" id="first-steps" aria-labelledby="first-steps-heading">
         <h2 id="first-steps-heading">My first steps</h2>
         <p>Here are a few things I’m working on as I get started:</p>
-        <ol>
+        <ol class="study-list">
           <li>Learn how HTML gives a page its structure.</li>
           <li>Use headings, paragraphs, and lists to organize information.</li>
           <li>Practice making links and describing images with alt text.</li>
           <li>Learn CSS after I’m more comfortable with the HTML basics.</li>
         </ol>
       </section>
-
-      <section id="keep-learning" aria-labelledby="keep-learning-heading">
+      <section class="content-section next-step" id="keep-learning" aria-labelledby="keep-learning-heading">
         <h2 id="keep-learning-heading">What’s next</h2>
         <h3>Keep practicing, one page at a time</h3>
         <p>I don’t need to know everything right away. I can keep trying small projects, ask questions when I get stuck, and build my skills as I go.</p>
       </section>
     </article>
   </main>
-
-  <footer>
+  <footer class="site-footer">
     <p>John Owens · Learning IT one step at a time</p>
   </footer>
 </body>
